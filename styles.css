@@ -1,0 +1,51 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("/images/pattern-background-desktop.svg");
+}
+
+.component-container {
+  width: 450px;
+  height: 697px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -150px;
+  margin-top: -150px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.summary-container {
+  background-color: #fff;
+}
+
+.header-img {
+  border-radius: 20px 20px 0 0;
+}
+
+h3 {
+  font-weight: 800;
+  color: #1f2e55;
+}
+
+p,
+.cancel-link {
+  color: #717fa6;
+}
+
+.price-container {
+  background-color: #f7f9ff;
+  border-radius: 11px;
+}
+
+.payment-btn {
+  background-color: #382ae1;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 15px;
+  box-shadow: 0 20px 20px rgba(56, 42, 225, 0.19);
+}
